@@ -75,17 +75,18 @@ Usage
 'use strict'
 
 const pon = require('pon')
-const ponTaskCcjs = require('pon-task-ccjs')
+const ccjs = require('pon-task-ccjs')
 
 async function tryExample () {
   let run = pon({
-    myTask01: ponTaskCcjs()
+    'production:cc': ccjs('public/bundle.js', 'public/bundle.cc.js')
   })
 
-  run('myTask01')
+  run('production:cc')
 }
 
 tryExample()
+
 
 ```
 
