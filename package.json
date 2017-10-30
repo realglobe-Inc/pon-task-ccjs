@@ -1,6 +1,6 @@
 {
   "name": "pon-task-ccjs",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Pon task to run Closure Compiler",
   "main": "lib",
   "browser": "shim/browser",
