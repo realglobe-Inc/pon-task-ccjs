@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/realglobe-Inc/pon-task-ccjs#readme",
   "dependencies": {
-    "google-closure-compiler": "^20171023.0.1"
+    "google-closure-compiler": "^20171203.0.0"
   },
   "devDependencies": {
     "ababel": "^2.0.3",
@@ -36,7 +36,7 @@
     "ape-tmpl": "^6.0.2",
     "ape-updating": "^4.1.0",
     "coz": "^6.0.20",
-    "eslint": "^4.9.0",
+    "eslint": "^4.14.0",
     "injectmock": "^2.0.0",
     "pon-context": "^2.0.1",
     "pon-doc": "^2.0.1",
