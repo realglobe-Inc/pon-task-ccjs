@@ -33,6 +33,18 @@ describe('define', function () {
 
     await Promise.resolve(task(ctx))
   })
+
+  it('DefineDir', async () => {
+    const ctx = ponContext()
+    const task = define.dir(
+      `${__dirname}/../misc/mocks`,
+      `${__dirname}/../tmp/dir`,
+      {}
+    )
+    ok(task)
+
+    await Promise.resolve(task(ctx))
+  })
 })
 
 /* global describe, before, after, it */
