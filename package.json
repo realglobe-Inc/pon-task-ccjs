@@ -4,7 +4,7 @@
   "description": "Pon task to run Closure Compiler",
   "main": "lib",
   "scripts": {
-    "prepare": "node ./ci/build.js && node ./ci/shim.js ",
+    "prepare": "node ./ci/build.js",
     "test": "node ./ci/test.js"
   },
   "repository": "realglobe-Inc/pon-task-ccjs",
