@@ -1,6 +1,6 @@
 {
   "name": "pon-task-ccjs",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "description": "Pon task to run Closure Compiler",
   "main": "lib",
   "scripts": {
