@@ -23,7 +23,7 @@
   "homepage": "https://github.com/realglobe-Inc/pon-task-ccjs#readme",
   "dependencies": {
     "aglob": "^3.0.2",
-    "google-closure-compiler": "^20190618.0.0"
+    "google-closure-compiler": "^20190729.0.0"
   },
   "devDependencies": {
     "ababel": "^6.0.3",
