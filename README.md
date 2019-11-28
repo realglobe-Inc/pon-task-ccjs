@@ -101,7 +101,7 @@ Signatures
 ---------
 
 
-### `define(src, dest, options, ) -> function`
+### `define(src, dest, options) -> function`
 
 Define task
 
@@ -110,7 +110,7 @@ Define task
 | src | string |  Source file path |
 | dest | string |  Destination file path |
 | options | Object |  Optional settings |
-|  |  |  |
+| options.level | string |  Compile level |
 | options.memory | string |  Java memory size |
 
 
