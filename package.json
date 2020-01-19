@@ -1,6 +1,6 @@
 {
   "name": "pon-task-ccjs",
-  "version": "1.6.1",
+  "version": "1.7.0",
   "description": "Pon task to run Closure Compiler",
   "main": "lib",
   "scripts": {
@@ -23,11 +23,11 @@
   "homepage": "https://github.com/realglobe-Inc/pon-task-ccjs#readme",
   "dependencies": {
     "aglob": "^3.0.2",
-    "google-closure-compiler": "^20200101.0.0"
+    "google-closure-compiler": "^20200112.0.0"
   },
   "devDependencies": {
-    "ababel": "^6.1.0",
-    "amocha": "^6.0.0",
+    "ababel": "^6.1.2",
+    "amocha": "^7.0.1",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^2.0.2",
     "ape-releasing": "^5.0.7",
